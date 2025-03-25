@@ -1,0 +1,79 @@
+
+/* ============================== */
+/* CONFIGURAÇÕES DO CORPO (BODY) */
+/* ============================== */
+
+body {  
+    background-image: url('lev.jpg');  
+    /* Define uma imagem de fundo para a página 
+       "url('lev.jpg')" -> Especifica o arquivo da imagem de fundo
+       A imagem deve estar na mesma pasta do arquivo CSS ou o caminho deve ser ajustado corretamente */
+
+    background-position: center;  
+    /* Define a posição da imagem de fundo 
+       "center" -> Centraliza a imagem horizontal e verticalmente na página */
+
+    background-size: cover;  
+    /* Faz com que a imagem de fundo ocupe toda a tela, sem distorcer, cobrindo a área inteira 
+       "cover" -> Ajusta a imagem para cobrir todo o fundo do site, mantendo a proporção original */
+}
+
+/* ============================== */
+/* CONFIGURAÇÃO DO CONTAINER */
+/* ============================== */
+
+.container {  
+   text-align: center;  
+   /* Centraliza todo o texto dentro do container */
+
+   color: white;  
+   /* Define a cor do texto dentro do container como branco */
+
+   padding: 3cm;  
+   /* Define o espaçamento interno do container em 3 centímetros 
+      "padding" -> Espaçamento interno entre o conteúdo e a borda do elemento */
+
+   background: rgba(0, 0, 0, 0.6);  
+   /* Define uma cor de fundo preta com transparência 
+      "rgba(0, 0, 0, 0.6)" -> Preto (RGB: 0,0,0) com 60% de opacidade (0.6) 
+      Isso cria um efeito de "vidro escuro" sobre a imagem de fundo */
+
+   max-width: calc(60% - 6cm);  
+   /* Define a largura máxima do container 
+      "60%" -> O container ocupará no máximo 60% da largura da tela
+      "calc(60% - 6cm)" -> Calcula o tamanho considerando uma margem extra de 6cm */
+
+   margin: auto;  
+   /* Centraliza o container na página automaticamente 
+      "auto" -> Ajusta automaticamente as margens laterais para centralizar o elemento */
+}
+
+/* ============================== */
+/* CONFIGURAÇÃO DO TÍTULO H1 */
+/* ============================== */
+
+h1 {  
+    font-size: 2.5em;  
+    /* Define o tamanho da fonte para 2.5 vezes o tamanho padrão do navegador 
+       "em" -> Unidade relativa baseada no tamanho da fonte do elemento pai */
+
+    font-weight: bold;  
+    /* Define a espessura da fonte como negrito 
+       "bold" -> Texto mais grosso para dar destaque */
+}
+
+/* ============================== */
+/* CONFIGURAÇÃO DOS PARÁGRAFOS (P) */
+/* ============================== */
+
+p {  
+    font-size: 1.2em;  
+    /* Define o tamanho da fonte como 1.2 vezes o tamanho padrão */
+
+    text-align: justify;  
+    /* Faz com que o texto fique alinhado dos dois lados, como em livros ou jornais */
+
+    line-height: 1.5;  
+    /* Define o espaçamento entre as linhas do parágrafo
+       "1.5" -> O espaçamento será 1.5 vezes o tamanho da fonte, deixando o texto mais legível */
+}
